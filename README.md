@@ -28,6 +28,8 @@ A motivação para o desenvolvimento deste projeto é a necessidade de melhorar 
 
 ## Arquitetura do Sistema
 
+![imagem](images_docs/gcp_truck.png)
+
 * **Coleta de Dados**: os sensores instalados nos caminhões enviam dados para o Google Cloud Pub/Sub.
 * **Processamento de Dados**: os dados são processados e armazenados na nuvem utilizando o Google Cloud.
 * **Análise de Dados**: os dados são analisados em tempo real para detecção de anomalias e alertas.
